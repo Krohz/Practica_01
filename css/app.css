@@ -1,0 +1,98 @@
+/*Para que los pixeles sean precisos - copiar para abajo*/
+html {
+    box-sizing: border-box;
+    /* ----- REMS ---- por default el html tiene un font-size :16px */
+    font-size: 62.5%;
+    /*1rem = 10px /----HACK------ bueno para el responsive*/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*TODO PARA EL LOS PIXELES PRECISOS- copiar para arriba*/
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    /*Intelineado siempre aplicar a mis proyector junto al font siz*/
+    background-color:  hsl(217, 54%, 11%)
+}
+
+img {
+    max-width: 100%;
+    /*INDESPENSABLE CUANDO LA IMAGEN LE FALTE UN ESPACIO*/
+    display: block;
+}
+p{
+    margin: 0;
+    font-size: 18px;
+}
+
+.junto{
+    padding: 3rem 0;
+    background-color:   hsl(216, 50%, 16%);
+    box-shadow: 5px 18px 26px -4px rgba(0,0,0,0.48);
+-webkit-box-shadow: 5px 18px 26px -4px rgba(0,0,0,0.48);
+-moz-box-shadow: 5px 18px 26px -4px rgba(0,0,0,0.48);
+    max-width: 35rem;
+    margin: 10rem auto;
+    border: 2px solid  hsl(216, 50%, 16%);
+    border-radius: 1rem 1rem;
+}
+
+.imagen{
+    box-shadow: 5px 18px 26px -4px rgba(0,0,0,0.48);
+-webkit-box-shadow: 5px 18px 26px -4px rgba(0,0,0,0.48);
+-moz-box-shadow: 5px 18px 26px -4px rgba(0,0,0,0.48);
+    margin: 0 auto 2.5rem auto;
+    width: 80%;
+    height: 80%;
+}
+
+.contenedor{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.titulo{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contenido{
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+
+.costo{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(178, 100%, 50%);
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.color{
+    color: hsl(215, 51%, 70%);
+}
+
+.autor{
+    margin-top: 2rem;
+    color: #e1e1e1;
+}
+
+span{
+    color: white;
+    font-weight: bold;
+}
+
+
+/*Proyecto de practica de frondmentor
+link: https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U
+
+Calificacion propia : 80/100
+*/
