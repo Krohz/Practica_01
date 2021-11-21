@@ -72,8 +72,8 @@ p{
     display: flex;
     justify-content: space-between;
     color: hsl(178, 100%, 50%);
-    padding-bottom: .5rem;
-    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
 }
 
 .color{
@@ -81,13 +81,40 @@ p{
 }
 
 .autor{
+    display: flex;
     margin-top: 2rem;
     color: #e1e1e1;
+}
+
+.autor img{
+    width: auto;
+    height: 2.5rem;
+    margin-right: 1rem;
 }
 
 span{
     color: white;
     font-weight: bold;
+}
+
+.eter{
+    display: flex;
+}
+
+.dias{
+    display: flex;
+}
+
+.eter img{
+    width: auto;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+.dias img{
+    width: auto;
+    height: 2.5rem;
+    margin-right: 1rem;
 }
 
 
